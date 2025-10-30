@@ -1,1 +1,16 @@
-All programs are written by me, August Zentner. To use the programs file directories must be changed and data must be downloaded. Anything labed .ipnyb is a jupyter notebook. All .TXT files are expirmentally measured thrust data: (time, thrust). All .pdf files are thrust vs time graphs. 
+All programs are written by me, August Zentner.
+To use the programs file directories must be changed and data must be downloaded. 
+Anything labed .ipnyb is a jupyter notebook. 
+All .TXT files are expirmentally measured thrust data: (time, thrust). All .pdf files are thrust vs time graphs. 
+Both above are named with the following convention: 38mm test# (throat size in mm)C(apended at x% percent of maximum thrust, normally ten)
+
+Note: I do not consider this primarily a coding project and so the code is not very user friendly, currently store as juypter note books, and some of the codes may contain some mislabeling etc.
+
+Main codes:
+
+Optimize_Exit_Area.ipynb:
+  Given thrust data and other characteristics of the rocket motor (including throat size), will give the optimized exit area, or expansion ratio.
+
+Area_From_Pressure.ipynb
+  Given thrust data and other characteristics of the rocket motor will give chamber pressure as a function of time, as well as some other characterisitcs. Note this code currently has some mislabelled graphs and is nto suer friendly.
+  
